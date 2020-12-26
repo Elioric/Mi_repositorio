@@ -1,5 +1,7 @@
 <?php
 
+//Breve comentario para prueba de git
+
 require('../db/model/available_schedules.php');
 $schedules = new Schedule;
 $schlist = $schedules->getSchedules();
