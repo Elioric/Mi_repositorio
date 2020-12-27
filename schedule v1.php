@@ -2,7 +2,7 @@
 
 //Breve comentario para prueba de git
 
-//Lo cometo aquí
+//Generemos un conflicto
 
 require('../db/model/available_schedules.php');
 $schedules = new Schedule;
