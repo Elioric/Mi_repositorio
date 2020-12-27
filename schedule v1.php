@@ -4,6 +4,8 @@
 
 //Generemos un conflicto
 
+//Para pull Request
+
 require('../db/model/available_schedules.php');
 $schedules = new Schedule;
 $schlist = $schedules->getSchedules();
